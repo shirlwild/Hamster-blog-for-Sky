@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html >
+  <head>
+  
+    <title>Crazy about Hamsters</title>
+		
+	
+  </head>
+
+  <body>
+
+<div>
+  <h1 style="height: 50px; width: 100%; border: 5px solid black;border-radius: 5px; margin-top: 10px; padding: 30px; text-align: centre; font-family: Arial; font-size: 50px";text-size: 30px>The Crazy World of Misty and Dusty </h1>	
+  </div>	
+  
+  <!- This cube piece of coding was taken from the intro course I did on web design, where I literally wrote what I was told and wasn't sure what I was writing.>
+  <!- I have modified the CSS from that lesson to fit this project to create a photo montage>
+  <!- I changed the speed of the rotation, opacity, the background from colour to img, resized the background, the alignment of elements>
+  
+  	<style>body{background: LightGrey; <!-better colour needed>
+  height:25vh;
+  width: 1325px;
+  text-align:center}
+
+.container{height:100%;
+  margin-top:125px;align:right}
+
+.dice{position:relative;
+  margin:0 auto;
+height:200px;
+width:100px;
+transform-style: preserve-3d;
+animation: spin 30s infinite alternate;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateX(90deg) rotateY(360deg) translateZ(0px)
+  } }
+
+.side{position:absolute;
+height:200px;
+width:200px;
+opacity:1
+;}
+
+.one{transform:rotatex(90deg)translatez(100px);
+	background-image: url("https://www.thesprucepets.com/thmb/W9jmR063Bw2DjE5OdttKPmimr7c=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/4717897342_c9b936c3d4_o-56a2bcef3df78cf77279615d.jpg");
+    background-repeat: no-repeat;
+	background-size: 200px 200px;}
+
+.two{transform:translatez(100px);
+	background-image: url("https://www.pets4homes.co.uk/images/articles/2183/large/information-on-dwarf-hamsters-54379728b329f.jpg");
+    background-repeat: no-repeat;
+	background-size: 200px 200px;}
+
+.three{transform:rotatey(90deg)translatez(100px);
+	background-image: url("https://images.petplanet.co.uk/images/product_images/extra_images/69746/99_plastic_sign_beware_dwarf_hamster_1453717815_932877.jpg");
+    background-repeat: no-repeat;
+	background-size: 200px 200px;}
+
+.four{transform:rotatey(180deg)translatez(100px);
+	background-image: url("https://pixfeeds.com/images/4/270038/1200-577634454-campbells-dwarf-hamster.jpg");
+    background-repeat: no-repeat;
+	background-size: 200px 200px;}
+
+.five{transform:rotatey(-90deg)translatez(100px);
+	background-image: url("http://i.imgur.com/SgHM3Af.jpg");
+    background-repeat: no-repeat;
+	background-size: 200px 200px;}
+
+.six{transform:rotatex(-90deg)translatez(100px);
+background-image: url("http://john-gates.com/wp-content/uploads/2016/11/f811a70d75af86d30f40e1ac7472e3c4-1024x683.jpg");
+    background-repeat: no-repeat;
+	background-size: 200px 200px;}
+
+	</style>
+
+	    <div class="container">
+  <div class="dice">
+    <div class="side one"></div>
+    <div class="side two"></div>
+    <div class="side three"></div>
+    <div class="side four"></div>
+    <div class="side five"></div>
+    <div class="side six"></div>
+  </div>
+
+
+</div>
+	
+<!-Box ends>
+
+<div>		<!-I have learnt about style sheets but so that all the coding is available to you I've used inline styling. I know it's not ideal>
+	<nav>
+    	<ul style="background: white; list-style-type: none; height: 100px; width: 100%; border: 5px solid black;border-radius: 5px;text-align:center; margin-top:100px; padding:10px"> <!-Black isn't working???>
+      		<li style= "color: black; font-size: 18px; font-family: Arial;"><a href="#introduction">Introduction</a></li>
+	  		<li style= "color: black; font-size: 18px; font-family: Arial;"><a href="#Misty">Misty</a></li>
+	  		<li style= "color: black; font-size: 18px; font-family: Arial;"><a href="#Dusty">Dusty</a></li>
+	  		<li style= "color: black; font-size: 18px; font-family: Arial;"><a href="#Care">How to look after Hamsters</a></li>
+
+    	</ul>
+  </nav>
+
+</div>
+
+  <div id="introduction">  
+	
+	
+	<h2 style="font-family: Arial;"> <strong>Introduction</strong> </h2>
+	
+	<p style="text-align:left; font-family: Arial;"> Meet Misty and Dusty, our pet dwarf hamsters. They have been with us now for 4 months and have caused quite a stir. Originally they were in the same cage but unfortunately Misty is somewhat of a scaredy hamster and irritated her sister so much that we came down one morning to a blood bath in the cage. We then had to seperate the pair. We have had hamster bliss since but not so much space in the house.</p>
+	
+	<!– style up colour and font for Misty and Dusty headings –>
+	
+</div>
+	
+	
+	<div id="Misty">
+		<h2 style="font-family: Arial;"> <strong>Misty</strong> </h2>
+		
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_fyCRj7J6YqLupSp2JzL9_KCckn3g4UKwqqDVyqd3pV7BTp30" alt="This is a Misty" >
+		
+		<p style="text-align:left; font-family: Arial;"> As I mentioned in the intro, Misty is a bit of a nervous hamster. She is also a very fat, lazy and fluffy hamster. She likes nothing more than having a snuggle cuddle and munching away on her peanuts and corn nibbles. She is really rather sweet</p>
+	
+</div>
+	
+	
+	<div id="Dusty">
+		<h2 style="font-family: Arial;"> <strong>Dusty</strong> </h2>
+	
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr3HjkXzV7eYo597_gKWTXmubeCC7oPIBEQ6pY7Rukez9A2jmI" alt="This is Dusty" >
+	
+		<p style="text-align:left; font-family: Arial;"> Dusty is the energetic of the two of them and often keeps us awake in the night with her squeaking hamster wheel. However, it never wakes Izzy. But then a rocket going off outside her window wouldn't stir her!</p>
+	
+	</div>
+	
+	<div id="Care">
+		<h2 style="font-family: Arial;"> <strong>How to look after Hamsters</strong> </h2>
+		
+		<p style="text-align:left;font-family: Arial;">I am by no means the expert on looking after Hamsters, particularly Dwarf Hamsters who are meant to be perfect for children and live in social groups. 
+	My daughter is still traumatised from the blood <em>ALL OVER</em> the cage from the night of the attack. </p>
+	
+		<p style="text-align:left; font-family: Arial;">However there are a few things I have learnt if you care to read on. Or, if you prefer, please see the <a href="http://www.petsathome.com/shop/en/pets/pet-talk/pet-care-small-animal-hamster" target="blank"> pets at home </a> link for the professional opinion on how to care for these bundles of fluff </p> 
+	
+		<p style="text-align:left;font-family: Arial;"> Here is a list of the saliant points I have learnt </p>
+	</div>
+
+	<div>
+		<ol style="background: white; height: 100px; width: 100%; border: 5px solid black;border-radius: 5px;text-align:left; margin-top:50px; padding-left:50px; padding-top: 20px"> <!-Black isn't working???>
+	
+      	<li style="font-family: Arial;">Oil the wheels with vegetable oil, it will ensure you sleep like your 6 year old daughter all night</li>
+     	<li style="font-family: Arial;">They will always poo when you get them out, normally 2, so make sure you have something light on so you can see them before they fall on the floor</li>
+      	<li style="font-family: Arial;">They are blooming fast in the beginning. If you drop one shut all doors and make sure the cats are nowhere near!</li>
+      	<li style="font-family: Arial;">Did I mention oiling that wheel? I refer you back to point 1!</li>
+    	</ol>
+	</div>
+			
+  </body>
+</html>
